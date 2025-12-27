@@ -21,8 +21,8 @@ int main (){
 		printf("your grade is %c .Good job",grade);
 	}
 	
-	else if(score<60 && score>35){
-		grade='E';
+	else if(score<70 && score>35){
+		grade='D';
 		printf("your grade is %c .You passed,but you could do better ",grade);
 	}
 	else if(score>0 && score<=35){
