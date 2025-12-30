@@ -13,7 +13,7 @@ int main(){
 	(score>=75 && score<90)? 'B':
 	(score>=60 && score<75)? 'C':
 	(score>35 && score<60)? 'D':
-	(score>=0 && score<=35)? 'F':printf("invalid socre");
+	(score>=0 && score<=35)? 'F':printf("invalid score");
 	
 	switch(grade){
 		case 'A': 	
@@ -37,7 +37,7 @@ int main(){
 				  break;
 		
 		default :
-			      printf("score should between 0 to 100");
+			      printf("'score should between 0 to 100'");
 		          break;
 		
 	
