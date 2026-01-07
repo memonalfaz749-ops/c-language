@@ -1,28 +1,24 @@
 #include<stdio.h>
 #include<conio.h>
-int main (){
+int main(){
 	
 	int i,j;
 	
+	
+	
 	for(i=5;i>=1;i--){
 		for(j=1;j<=i;j++){
-			if(i%2==0){
-				printf("@");
-			}
-			else{
-				printf("#");
-			}
+			printf("%d",i);
 		}
 		printf("\n");
 	}
 	
 	
 	
-	
 	return 0;
 }
-//#####
-//@@@@
-//###
-//@@
-//#
+//55555
+//4444
+//333
+//22
+//1
