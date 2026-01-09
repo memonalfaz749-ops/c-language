@@ -14,3 +14,6 @@ int main (){
 	
 	return 0;
 }
+//i=1 1<=4 true j=1 1<=1 true print temp++ temp =2 j++ 2<=1 false
+//i++ i=4 4<=4 true j=1 1<=4 true print temp++ temp= j++ j=2 2<=3 true print temp++ temp=
+

@@ -29,3 +29,5 @@ int main (){
 	
 	return 0;
 }
+//i=5 5>=1 true space=1 1<=5-5 1<=0 false
+//i-- 1=4 4>=1 true space=1 1<=5-4 1<=1 true space++ space=2 2<=1 false

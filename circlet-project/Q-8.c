@@ -26,3 +26,7 @@ int main(){
 	
 	return 0;
 }
+//i=1 1<=5 true j=1 1<=5  if i==1 1==1 true print
+//j++ j=2  2<=5 true i==1 1==1 true print .........
+//j++ j=5 5<=5 true i==1 1==1 true print j++ j=6 6<=5 false
+//i++ i=5 5<=5 true j=1 1<=5 true print ...........
