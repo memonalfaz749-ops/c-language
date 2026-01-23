@@ -2,8 +2,8 @@
 #include<conio.h>
 int main(){
 	
-	int array[100],i,temp=0,num,ave;
-	
+	int array[100],i,temp=0,num;
+	float ave;
 	printf("enter array size :");
 	scanf("%d",&num);
 	
@@ -12,7 +12,7 @@ int main(){
 		temp=temp+array[i];
 	}
 	ave=temp/num;
-	printf("Average of array is :%d ",ave);
+	printf("Average of array is :%f ",ave);
 	
 	
 	
