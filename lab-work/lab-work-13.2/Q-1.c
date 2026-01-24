@@ -2,7 +2,7 @@
 #include<conio.h>
 int main (){
 	
-	int row,column,i,j,total=0,a[row][column];
+	int row,column,i,j,total=0,a[100][100];
 	float average;
 	
 	printf("Enter the array`s row size : ");
