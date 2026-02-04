@@ -4,10 +4,10 @@ int main() {
     char str[100];
     int i = 0, j, flag = 1;
 
-    printf("Enter a string: ");
+    printf("Enter any string: ");
     scanf("%s", str);
 
-    /* find length manually */
+    //  length 
     while (str[i] != '\0') {
         i++;
     }
@@ -21,10 +21,13 @@ int main() {
         }
     }
 
-    if (flag)
-        printf("String is a palindrome");
-    else
-        printf("String is NOT a palindrome");
+    if (flag == 1){
+    	printf("The given string is a palindrome");
+	}
+        
+    else{
+    	printf("The given string is NOT a palindrome");
+	}
 
     return 0;
 }
