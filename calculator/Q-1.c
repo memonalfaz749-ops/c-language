@@ -70,7 +70,8 @@ int main (){
 	
 	
 	while(choice != 0){
-		
+	
+	printf("\n||--- Calculator ---||");	
 	printf("\nPress 1 for +");
 	printf("\nPress 2 for -");
 	printf("\nPress 3 for *");
